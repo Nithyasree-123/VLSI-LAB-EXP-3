@@ -32,7 +32,6 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 **Verilog code
 
 2 BIT MULTIPLIER:
-
 ```
 module ha(a,b,sum,c);
 
@@ -62,11 +61,9 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
+OUTPUT:
 
-**Output Waveform**
-
-![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/bb8f7a2e-b167-4d2f-a878-8992dcbc2ebc)
-
+![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/0aae9a0a-00ae-4970-a2c1-ea69d1fbe0e9)
 
 verilog code:
 
