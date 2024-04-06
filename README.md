@@ -61,9 +61,10 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
-OUTPUT:
+***OUTPUT WAVEFORM:
+![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/979ce940-43a5-4be9-873e-c769cf642ebd)
 
-![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/0aae9a0a-00ae-4970-a2c1-ea69d1fbe0e9)
+
 
 verilog code:
 
