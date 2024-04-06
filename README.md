@@ -65,7 +65,8 @@ endmodule
 
 **Output Waveform**
 
-![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/cc20fdf5-641a-4a62-b93a-e2cc6853f524)
+![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/bb8f7a2e-b167-4d2f-a878-8992dcbc2ebc)
+
 
 verilog code:
 
