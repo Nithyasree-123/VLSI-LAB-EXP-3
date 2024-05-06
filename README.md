@@ -1,4 +1,4 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+# SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 **AIM: **
  To simulate and synthesis multiplier using Xilinx ISE.
 
@@ -29,9 +29,9 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 
-**Verilog code
+## Verilog code:
 
-2 BIT MULTIPLIER:
+### 2 BIT MULTIPLIER:
 ```
 module ha(a,b,sum,c);
 
@@ -61,15 +61,8 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
-***OUTPUT WAVEFORM:
-![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/979ce940-43a5-4be9-873e-c769cf642ebd)
-
-
-
-verilog code:
-
-4 BIT MULTIPLIXER:
-
+```
+### 4 bit multipler:
 ```
 module ha(a,b,c,s);
 
@@ -138,14 +131,13 @@ fa fa7(w[14],x[2]&y[3],w[16],z[5],w[17]);
 fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule
+```
+## Output Waveform:
+### 2 bit multiplier:
+<img width="1108" alt="318095146-6505d8de-e613-4dfb-94c3-2d4c5f2af396" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/5907ba32-8404-43b5-8884-1b42b87dbb16">
 
-OUTPUT WAVEFORM:
+### 4 bit multiplier:
+<img width="791" alt="318095183-4e49924a-4e27-4e8a-8438-b8f79a2132f9" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/9c2045f3-a6ba-438e-9f90-ce8e74d42758">
 
-![image](https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/26790673-2218-4ef9-be8d-39db58821123)
-
-
-**Result**
-
-
-hus,the simulation and synthesis of multipliers by using vivado has been successfully excecuted and verified.
-
+## RESULT:
+ Thus,the simulation and synthesis of multipliers by using vivado has been successfully excecuted and verified.
