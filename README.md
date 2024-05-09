@@ -2,9 +2,13 @@
 ## AIM: 
 To simulate and synthesis multiplier using vivado.
 
-**APPARATUS REQUIRED:**
+## APPARATUS REQUIRED:
+
 vivado 2023.2
-**PROCEDURE:**
+
+
+## PROCEDURE:
+
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -19,7 +23,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-**Logic Diagram**
+## Logic Diagram:
 ## 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
