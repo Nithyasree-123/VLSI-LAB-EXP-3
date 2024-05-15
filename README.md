@@ -23,20 +23,14 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-## Logic Diagram:
-## 2 bit Multiplier
+## LOGIC DIAGRAM:
+
+## 2 BIT MULTIPLIER:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-**4 Bit Multiplier**
+### VERILOG CODE:
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
-## Verilog code:
-
-### 2 BIT MULTIPLIER:
-```
 module ha(a,b,sum,c);
 
 input a,b;
@@ -65,9 +59,18 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
-```
-### 4 bit multipler:
-```
+### OUTPUT:
+
+<img width="1108" alt="318095146-6505d8de-e613-4dfb-94c3-2d4c5f2af396" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/23453c72-438c-447b-adbe-4053b2ba9480">
+
+
+## 4 BIT MULTIPLIER:
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
+
+
+## VERILOG CODE:
+
 module ha(a,b,c,s);
 
 input a,b;
@@ -135,13 +138,10 @@ fa fa7(w[14],x[2]&y[3],w[16],z[5],w[17]);
 fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule
-```
-## Output Waveform:
-### 2 bit multiplier:
-<img width="1108" alt="318095146-6505d8de-e613-4dfb-94c3-2d4c5f2af396" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/5907ba32-8404-43b5-8884-1b42b87dbb16">
 
-### 4 bit multiplier:
-<img width="791" alt="318095183-4e49924a-4e27-4e8a-8438-b8f79a2132f9" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/9c2045f3-a6ba-438e-9f90-ce8e74d42758">
+### OUTPUT:
+
+<img width="791" alt="318095183-4e49924a-4e27-4e8a-8438-b8f79a2132f9" src="https://github.com/Nithyasree-123/VLSI-LAB-EXP-3/assets/164908713/ceb7a451-776a-4f15-9d63-c53413f40190">
 
 ## RESULT:
  Thus,the simulation and synthesis of multipliers by using vivado has been successfully excecuted and verified.
